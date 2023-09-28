@@ -5,3 +5,5 @@ services:
     build: .
     image: bus_backend_test
     container_name: bus_backend_test
+    env_file:
+      - ./.env
