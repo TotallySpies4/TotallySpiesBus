@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  test_server:
+    build: .
+    image: bus_backend_test
+    container_name: bus_backend_test
